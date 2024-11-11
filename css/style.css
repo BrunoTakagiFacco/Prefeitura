@@ -1,0 +1,175 @@
+header{
+    background: white;
+    list-style: none;
+    display: flex;
+    
+}
+.acessnav{
+    border: 1px solid #eee;
+    text-align: center;
+    flex-grow: 1;
+    border-radius: 12px;
+    background-color: #fafafa;
+    font-size: 10px;
+    column-gap: 15px;
+}
+.navacess .nav-item .acess{
+    color: black;
+    transition: all 0.5s ease;
+}
+.nav-item .acess:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.menu0{
+    display: flex;
+    justify-content: center; /* Centraliza os itens de navegação */
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px;  
+}
+.logosite{
+    display: flex;
+    justify-content: flex-end; /* Centraliza os itens de navegação */
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px;  
+}
+.brasao{
+    width: 130px;
+    height: auto;
+}
+.whatsapp{
+    background-color: rgba(219,254,234,255);
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    display: flex;
+    border-radius: 12px;
+}
+.whatsapp p{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.social{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.social button{
+}
+
+.mediatop{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.mediatop:hover{
+    transform: scale(1.1);
+}
+.whatsocial{
+    background-color: rgba(49,222,82,255);
+    border-color: white;
+}
+.c1{
+    color: black;
+}
+.c2{
+    color: black;
+    font-size: 10px;
+}
+.carousel-inner{
+    border-radius: 15px;
+}
+.facebook{
+    background-color: rgba(24,118,243,255);
+    border-color:white;
+}
+.instagram{
+    background:url(/image/unnamed.png);
+    border-color: white;
+}
+.c3{
+    font-size: 15px;
+}
+.card{
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+svg{
+    color: white;
+    width: 25px;
+    height: auto;
+}
+.carousel-caption{
+    background-color: white;
+    border-radius: 10px;
+    text-align: start;
+    padding-left: 5px;
+    height: auto;
+
+}
+.input-group{
+    padding-top: 60px;
+}
+.input-group .pesquisa{
+    border-radius: 15px;
+    color: green;
+}
+.menunav{
+    background-color: green;
+    display: flex;
+    justify-content: center; /* Centraliza os itens de navegação */
+}
+.dropdown{
+    display: flex;
+    justify-content: center; /* Centraliza os itens de navegação */
+}
+.dropdown .item1{
+    color: white;
+    transition: all 0.3s ease;
+    padding-left: 35px;
+    margin-left: 5px;
+}
+.dropdown .tem1:hover{
+}
+.slider1{
+    width: 1188px;
+    height: auto;
+    margin: 0 auto;
+}
+main svg{
+    width: 35px;
+}
+.servico{
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    color: black;
+}
+.c2{
+    color: black;
+
+}
+h2{
+    color: green;
+}
+.custom-button {
+    color: white; /* Cor do texto */
+    border: 0px solid ; /* Cor da borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 45px; /* Tamanho da fonte */
+    border-radius: 15px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+    text-align: start;
+    margin: 0px 10px 50px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
